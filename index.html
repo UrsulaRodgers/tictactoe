@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="tictactoe.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="tictactoe.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+
+<div class="container-fluid text-center">
+	<h1 style="color:#D6DAD6">TIC-TAC-TOE</h1>
+	<div class="container-fluid text-center" id="choices">
+		<h3 style="color:#D6DAD6">Make your choice!</h3>
+		<a class="btn selector" id="chooseX" style="color:red"><span id="X">X</span></a>
+		<a class="btn selector" id="chooseO" style="color:blue"><span id="O">O</span></a>
+	</div>
+	<div class="container-fluid text-center" id="board" style="display:none">
+		<div class="row text-center" id="row1">
+			<a class="btn square unclicked" id="0"></a>
+			<a class="btn square unclicked" id="1"></a>
+			<a class="btn square unclicked" id="2"></a>
+		</div>
+		<div class="row text-center" id="row2">
+			<a class="btn square unclicked" id="3"></a>
+			<a class="btn square unclicked" id="4"></a>
+			<a class="btn square unclicked" id="5"></a>
+		</div>
+		<div class="row text-center" id="row3">
+			<a class="btn square unclicked" id="6"></a>
+			<a class="btn square unclicked" id="7"></a>
+			<a class="btn square unclicked" id="8"></a>
+		</div>
+		<div>
+			<button id="reset">RESET</button>
+		</div>
+		
+	</div>
+</div>
+</body>
+</html>
