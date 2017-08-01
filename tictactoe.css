@@ -1,0 +1,62 @@
+.body {
+	background-color:black;
+}
+#choices {
+	background:rgba(255,255,255, 0.1);
+	max-width:350px;
+	max-height:275px;
+	margin:5% auto;
+	border-radius:10px;
+	
+}
+
+h3 {
+	color:#EEF1EE;
+	position:relative;
+	top:15px;
+}
+.row {
+	display:flex;
+	
+}
+
+
+.selector {
+	background-color:none;
+	margin:10% auto;
+}
+
+@media (min-width:250px){
+
+span {
+	font-size:5em;
+}
+}
+@media (min-width:400px){
+span {
+	font-size:10em;
+}
+}
+
+.square {
+	width: 100px;
+	height:100px;
+	border-radius:3px;
+	margin:10px;
+	background-color:white;
+	
+}
+#board{
+	max-width:350px;
+	margin:10% auto;
+}
+
+a {
+	position:relative;
+	top:-30px;
+}
+
+#reset {
+	border-radius:3px;
+	margin:0 auto;
+}
